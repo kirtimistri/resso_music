@@ -1,0 +1,26 @@
+# --- Backend (Python) ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+venv/
+env/
+*.env
+*/migrations/
+*/__pycache__/
+
+
+
+# --- Frontend (React + Tailwind) ---
+Frontend/node_modules/
+Frontend/.env
+Frontend/.next/
+Frontend/dist/
+Frontend/build/
+Frontend/yarn.lock
+Frontend/package-lock.json
+
+# --- OS and Editor Files ---
+.DS_Store
+.vscode/
+*.swp
